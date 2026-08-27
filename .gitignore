@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# build output
+lib/
+dist/
+*.tsbuildinfo
+
+# logs / os
+*.log
+.DS_Store
+Thumbs.db
+
+# editor / tools
+.vscode/
+.idea/
+.turbo/
+
+# secrets — never commit tokens
+.env
+.env.*
+# 本地开发配置可能填入真实 API Token，勿提交
+examples/local-dev.cordis.yml
+
+# dsh 会话产物
+video/

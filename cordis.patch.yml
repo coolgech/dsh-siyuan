@@ -1,0 +1,8 @@
+# dsh-siyuan bundle patch layer.
+#
+# 当该 bundle 通过 `dsh plugin add <包名|git 地址|本地路径>` 安装进某个 profile 后，
+# 这一层 patch 会把本插件注册进该 profile 的 Cordis 组合。
+# 配置项默认值由 src/config.ts 中的 Schemastery schema 提供，无需在这里硬编码 Token。
+- insert:
+    - id: dsh-siyuan
+      name: dsh-siyuan
