@@ -127,7 +127,7 @@ window.__ModuleLoader__.load({
             },
             'aria-expanded': open,
           },
-          React.createElement('span', null, '思源笔记'),
+          React.createElement('span', { style: { fontSize: '14px', fontWeight: 600 } }, '思源笔记'),
           React.createElement('span', { style: hintStyle }, open ? '收起' : '配置'),
         ),
         open ? React.createElement(

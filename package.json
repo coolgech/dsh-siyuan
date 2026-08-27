@@ -1,6 +1,6 @@
 {
   "name": "dsh-siyuan",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "DeepSeek Harness (dsh) plugin: operate SiYuan Note (思源笔记) through model-callable tools",
   "license": "MIT",
   "author": "coolgech",
@@ -32,6 +32,7 @@
     "cordis.patch.yml",
     "README.md",
       "PUBLISHING.md",
+      "CHANGELOG.md",
     "LICENSE"
   ],
   "keywords": [

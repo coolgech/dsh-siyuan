@@ -40,13 +40,13 @@ DeepSeek Harness（dsh）插件：让 Agent 把[思源笔记](https://github.com
 ### 方式一：通过 git 安装（推荐）
 
 ```bash
-dsh plugin --profile <profile> add https://github.com/coolgech/dsh-siyuan.git
+dsh plugin --profile web/desktop add https://github.com/coolgech/dsh-siyuan.git
 ```
 
 ### 方式二：通过 npm 安装
 
 ```bash
-dsh plugin --profile <profile> add dsh-siyuan
+dsh plugin --profile web/desktop add dsh-siyuan
 ```
 
 ### 方式三：本地开发加载

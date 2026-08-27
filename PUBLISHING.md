@@ -33,8 +33,8 @@ git push -u origin main
 
 在 GitHub 页面创建 Release：
 
-- Tag：`v0.1.0`
-- Title：`v0.1.0`
+- Tag：`v0.2.0`
+- Title：`v0.2.0`
 - 内容：简要描述功能和安装方式
 
 ---
